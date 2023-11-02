@@ -1,0 +1,44 @@
+name: hotornot
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  better_player:
+    path: betterplayer
+  flutter_screenutil: ^5.9.0
+  shared_preferences: ^2.2.1
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+  wakelock: ^0.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/mock_data/
+
+  fonts:
+    - family: "kumbh-Sans-bold"
+      fonts:
+        - asset: assets/fonts/KumbhSans-Bold.ttf
+    - family: "kumbh-Sans-light"
+      fonts:
+        - asset: assets/fonts/KumbhSans-Light.ttf
+    - family: "kumbh-Sans-regular"
+      fonts:
+        - asset: assets/fonts/KumbhSans-Regular.ttf
